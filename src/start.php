@@ -6,6 +6,7 @@ use PayPal\Api\Payment;
 session_start();
 
 $_SESSION['user_id'] = 1;
+
 require __DIR__.'/../vendor/autoload.php';
 
 //API
